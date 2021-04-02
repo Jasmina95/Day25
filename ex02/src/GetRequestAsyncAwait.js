@@ -11,6 +11,7 @@ class GetRequestAsyncAwait extends React.Component {
     const data = await response.json();
     this.setState({ totalReactPackages: data.total });
   }
+
   render() {
     const { totalReactPackages } = this.state;
     return (
