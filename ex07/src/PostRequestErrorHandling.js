@@ -30,6 +30,7 @@ class PostRequestErrorHandling extends React.Component {
         console.error("There was an error!", error);
       });
   }
+
   render() {
     const { errorMessage } = this.state;
     return (
